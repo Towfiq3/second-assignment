@@ -45,7 +45,7 @@ nav ul{
     background-color: orangered;
     border: none;
  }
- .discription, .quick{
+ .discription, .quick, .achive-text{
     color: #727272;
  }
  /* main section start */
@@ -91,3 +91,47 @@ nav ul{
     width: 500px;
     height: 750px;
  }
+ .big-button1{
+    padding: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: orangered;
+    color: aliceblue;
+ }
+ .big-button span{
+    font-size: 30px;
+    color: azure;
+ }
+.big-button{
+    position: absolute;
+    left: 818px;
+    top: 2700px;
+}
+/* Achivment styles */
+.achivement-container{
+    margin-top: 100px;
+}
+.achivement{
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+.text{
+    margin-left: 200px;
+    margin-bottom: 60px;
+}
+.achive{
+    border-style: solid;
+    border-color: aquamarine;
+    border-radius: 7px;
+    width: 241.83px;
+    height: 241.83px;
+    text-align: center;
+    padding-top: 50px;
+}
+.achive-num{
+    font-size: 35px;
+}
+.achive-text{
+    font-size: 20px;
+}
